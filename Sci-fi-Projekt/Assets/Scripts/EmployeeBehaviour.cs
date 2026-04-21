@@ -4,6 +4,8 @@ using UnityEngine;
 public class EmployeeBehaviour : MonoBehaviour
 {
 
+
+
     public bool isEvil;
 
     private Color color;
