@@ -45,4 +45,5 @@ public class EmployeeDatabase : ScriptableObject
     };
 
     public List<Sprite> sprites = new List<Sprite>();
+    public List<Sprite> idCardLogos = new List<Sprite>();
 }
