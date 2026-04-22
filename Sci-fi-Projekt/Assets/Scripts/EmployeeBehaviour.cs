@@ -17,9 +17,6 @@ public class EmployeeBehaviour : MonoBehaviour
 
         StartCoroutine(WalkInAnimation());
         GetComponent<SpriteRenderer>().color = color;
-
-
-
     }
 
     void Update()

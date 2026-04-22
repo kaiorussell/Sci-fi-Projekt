@@ -433,6 +433,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366389547}
   m_CullTransparentMesh: 1
+--- !u!1 &391781529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391781531}
+  - component: {fileID: 391781530}
+  m_Layer: 0
+  m_Name: Employee Manager
+  m_TagString: EmployeeManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &391781530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391781529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4211bea7d216cea459101faa3b2743ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  edb: {fileID: 11400000, guid: 2cf78000dde545d4ca45ee44533ac112, type: 2}
+  difficulty: 2
+--- !u!4 &391781531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391781529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.36898, y: -0.26108, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658018672
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +621,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   eSprite: {fileID: 0}
-  eName: 
+  eFirstName: 
+  eLastName: 
   eDepartment: 
   ePOB: 
   eDOB: 
@@ -1029,6 +1076,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 391781531}
   - {fileID: 1251998806}
   - {fileID: 2033670059}
   - {fileID: 740380673}

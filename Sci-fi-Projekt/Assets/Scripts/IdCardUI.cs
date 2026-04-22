@@ -7,7 +7,8 @@ public class IdCardUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textObject;
 
     private GameObject currentEmployee = GameObject.FindGameObjectWithTag("Employee");
-    private string currentEName;
+    private string currentEFirstName;
+    private string currentELastName;
     private string currentEDepartment;
     private string currentEPOB;
     private string currentEDOB;
@@ -27,13 +28,14 @@ public class IdCardUI : MonoBehaviour
             card.SetActive(!card.activeSelf);
         }
         GetCurrentEmployeeData();
-        textObject.text = $"Name: {currentEName}\r\nDepartment: {currentEDepartment}\r\nP.O.B: {currentEPOB}\r\nD.O.B: {currentEDOB}";
+        textObject.text = $"Name: {currentEFirstName} {currentELastName}\r\nDepartment: {currentEDepartment}\r\nP.O.B: {currentEPOB}\r\nD.O.B: {currentEDOB}";
     }
 
     private void GetCurrentEmployeeData()
     {
         currentEmployee = GameObject.FindGameObjectWithTag("Employee");
-        currentEName = currentEmployee.GetComponent<EmployeeData>().eName;
+        currentEFirstName = currentEmployee.GetComponent<EmployeeData>().eFirstName;
+        currentELastName = currentEmployee.GetComponent<EmployeeData>().eLastName;
         currentEDepartment = currentEmployee.GetComponent<EmployeeData>().eDepartment;
         currentEPOB = currentEmployee.GetComponent<EmployeeData>().ePOB;
         currentEDOB = currentEmployee.GetComponent<EmployeeData>().eDOB;
