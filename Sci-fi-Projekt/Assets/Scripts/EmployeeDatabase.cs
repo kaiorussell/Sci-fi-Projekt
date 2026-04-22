@@ -5,45 +5,224 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EmployeeDatabase", menuName = "Scriptable Objects/EmployeeDatabase")]
 public class EmployeeDatabase : ScriptableObject
 {
-    public List<string> EmployeeNames = new List<string>()
+    //---------------------------------------------------------
+    public List<string> employeeFirstNames = new List<string>()
     {
         "Dyllan",
         "Celina",
         "Ragou",
-        "Drømme Celina",
-        "Seal5",
-        "Lahyhyhy",
+        "Seal",
+        "Lahy",
         "Teto",
-        "Miku Hatsune",
-        "CupcakKe"
+        "Miku,",
+        "Oscar",
+        "Kaio",
+        "Lucas",
+        "Magnus",
+        "Sam",
+        "Brandon",
+        "Maddison",
+        "Corey",
+        "Finnegan",
+        "Regina",
+        "Katie",
+        "Russell",
+        "Heathcliff",
+        "Don",
+        "Ishmael",
+        "Brennan",
+        "Jordan",
+        "Mike",
+        "Molly",
+        "Will",
+        "Emily",
+        "Josh",
+        "Reginald",
+        "Bernard",
+        "Matt",
+        "Monica",
+        "Stella",
+        "Avery",
+        "Gretchen",
+        "Freddy",
+        "Fred",
+        "Shaggy",
+        "Velma",
+        "Duncan",
+        "Reese",
+        "Gustav",
+        "Alexander",
+        "Sascha",
+        "Erin"
     };
-
-    public List<string> EmployeeDepartment = new List<string>()
+    public List<string> alienFirstNames = new List<string>()
+    {
+        "Glub",
+        "Glob",
+        "Gaboogle",
+        "fauwgfcawu",
+        "Xenomorph",
+        "Qu",
+        "AM",
+        "Strorcanz",
+        "Y'alogaal",
+        "Zabadee",
+        "Name",
+        "FirstName",
+        "Alien",
+        "",
+        "wasd",
+        "Effigy",
+        "Boink",
+        "Zørlocke",
+        "Blep",
+        "Blip",
+        "Blippidy",
+        "Zerb",
+        "Gorb",
+        "Gnorb"
+    };
+    //---------------------------------------------------------
+    public List<string> employeeLastNames = new List<string>()
+    {
+        "Smith",
+        "Jones",
+        "Celina",
+        "George",
+        "Marowich",
+        "Russell",
+        "Johnson",
+        "Peterson",
+        "Blackbeard",
+        "Tibone",
+        "Robertson",
+        "Jimson",
+        "Gonzales",
+        "Wesley",
+        "Mcdonald",
+        "Sunset",
+        "Badguy",
+        "Hamilton",
+    };
+    public List<string> alienLastNames = new List<string>()
+    {
+        "Zuckerberg",
+        "Za'a'loogaboog",
+        "LastName",
+        "Name",
+        "",
+        "Zmith",
+        "Kilalhumans",
+        "Alaeinsrul",
+        "Notanalien"
+    };
+    //---------------------------------------------------------
+    public List<string> employeeDepartment = new List<string>()
     {
         "Radiation",
         "Mining",
-        "Alien testing",
+        "Alien Testing",
         "Guarding",
-        "Research"
+        "Research",
+        "Hollow Earth",
+        "Alien Aircraft Testing",
+        "Accounting",
+        "Research and study",
+        "Agriculture",
+        "Cyber Security",
+        "Alien Literature Analysis",
+        "Entertainment",
+        "Xenogastronomy",
+        "Janitor",
+        "Wash and Repair",
     };
+    public List<string> alienDepartment = new List<string>()
+    {
+        "Human killing",
+        "Minning",
+        "Alien escaping",
+        "Grding",
+        "Resurch",
+        "Being human",
+        "UFO Piloting",
+        "Human Disguise",
+        "Food?",
+        "bugs",
+        "Full of Burger",
+        "Middleschool teacher?",
+        "Astrology",
+        "Youtube",
+        "Theater Club",
+        "The Kitchens",
+        "Geomancy",
+        "Grogomancy",
+        "The janitor",
+        "Trailblazing",
+        "Reddit Moderation",
+        "Seams Stressing",
+        "Watch and Destroy"
 
-    public List<string> EmployeePOB = new List<string>()
+    };
+    //--------------------------------------------------
+    public List<string> employeePOB = new List<string>()
     {
         "Nykøbing Falster",
         "Randers",
-        "plads 3",
-        "palds 5",
-        "Sted"
-    };
+        "New york",
+        "Manchester",
+        "England",
+        "Mexico City",
+        "Beijing",
+        "Moscow",
+        "Hamilton",
+        "Hamburg",
+        "Indianapolis",
+        "Mumbai",
+        "Cairo",
+        "Santiago",
+        "Bosingen",
 
-    public List<string> EmployeeDOB = new List<string>()
-    {
-        "1991 March 29",
-        "2001 April 15",
-        "2008 April 3",
-        "1954 December 24"
     };
+    public List<string> alienPOB = new List<string>()
+    {
+        "The Death Star",
+        "Mars",
+        "The Moon",
+        "Urth",
+        "Earth",
+        "Brittle Hollow",
+        "Eye of the Universe",
+        "The Interloper",
+        "The Quantom Moon",
+        "The Sun",
+        "Timber Hearth",
+        "The Dark Bramble",
+        "The Stranger",
+        "Definitely Earth",
+        "",
+        "Erid"
+    };
+    //--------------------------------------------------
+    public List<string> employeeDOB = new List<string>()
+    {
+        "March 29 1991",
+        "April 5 2003",
+        "April 3 2008",
+        "January 5 1982",
+        "February 27 1973",
+        "June 13 1959"
+    };
+    public List<string> alienDOB = new List<string>()
+    {
+        "December 23 1693",
+        "",
+        "14 October 2004",
+        "19 Aepril 2001",
+        "August 11 2029"
+    };
+    //-------------------------------------------------
 
     public List<Sprite> sprites = new List<Sprite>();
-    public List<Sprite> idCardLogos = new List<Sprite>();
+    public List<Sprite> employeeIdCardLogos = new List<Sprite>();
+    public List<Sprite> alienIdCardLogos = new List<Sprite>();
 }

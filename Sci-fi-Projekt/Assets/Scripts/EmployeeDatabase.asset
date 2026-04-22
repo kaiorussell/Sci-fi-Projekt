@@ -22,9 +22,31 @@ MonoBehaviour:
   - Teto
   - Miku Hatsune
   - CupcakKe
+  EmployeeDepartment:
+  - Radiation
+  - Mining
+  - Alien testing
+  - Guarding
+  - Research
+  EmployeePOB:
+  - "Nyk\xF8bing Falster"
+  - Randers
+  - plads 3
+  - palds 5
+  - Sted
+  EmployeeDOB:
+  - 1991 March 29
+  - 2001 April 15
+  - 2008 April 3
+  - 1954 December 24
   sprites:
   - {fileID: -5328571788434735620, guid: abad40f38a1a08243b9848cb550d312d, type: 3}
   - {fileID: 3980875628284427312, guid: a2528a5956dd7444b9a69757cc3fbe59, type: 3}
   - {fileID: 5534757660660944489, guid: a7c4f3f42aa7a9c439345d27a535ccb6, type: 3}
   - {fileID: 1362294402365020291, guid: 84572af1e18afdf48a61e5202722b4de, type: 3}
   - {fileID: -639831933912817743, guid: 5a9adfac534df19489b461fb618ddd45, type: 3}
+  idCardLogos:
+  - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
+  - {fileID: 6937817954938267909, guid: c681c1e1ed37f274786c64998aa44f95, type: 3}
+  - {fileID: -6470460504253458178, guid: 2e360c803d06940479f5f04a1452aa11, type: 3}
+  - {fileID: -4178046375966092550, guid: 95ce6c14f82ded64d899f66b425ef694, type: 3}
