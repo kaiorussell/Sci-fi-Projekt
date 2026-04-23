@@ -620,6 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea27bcc9697daab4c9ba13b59acc312d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  logoObject: {fileID: 366389547}
   eSprite: {fileID: 0}
   isAlien: 0
   eFirstName: 
@@ -627,6 +628,7 @@ MonoBehaviour:
   eDepartment: 
   ePOB: 
   eDOB: 
+  eLogo: {fileID: 0}
   edb: {fileID: 11400000, guid: 2cf78000dde545d4ca45ee44533ac112, type: 2}
 --- !u!212 &740380672
 SpriteRenderer:

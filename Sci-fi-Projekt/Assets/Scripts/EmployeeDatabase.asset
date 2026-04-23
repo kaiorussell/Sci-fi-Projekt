@@ -12,41 +12,225 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf99ea1c54579b544abb96557f2487a7, type: 3}
   m_Name: EmployeeDatabase
   m_EditorClassIdentifier: Assembly-CSharp::EmployeeDatabase
-  EmployeeNames:
+  employeeFirstNames:
   - Dyllan
   - Celina
   - Ragou
-  - "Dr\xF8mme Celina"
-  - Seal5
-  - Lahyhyhy
+  - Seal
+  - Lahy
   - Teto
-  - Miku Hatsune
-  - CupcakKe
-  EmployeeDepartment:
+  - Miku,
+  - Oscar
+  - Kaio
+  - Lucas
+  - Magnus
+  - Sam
+  - Brandon
+  - Maddison
+  - Corey
+  - Finnegan
+  - Regina
+  - Katie
+  - Russell
+  - Heathcliff
+  - Don
+  - Ishmael
+  - Brennan
+  - Jordan
+  - Mike
+  - Molly
+  - Will
+  - Emily
+  - Josh
+  - Reginald
+  - Bernard
+  - Matt
+  - Monica
+  - Stella
+  - Avery
+  - Gretchen
+  - Freddy
+  - Fred
+  - Shaggy
+  - Velma
+  - Duncan
+  - Reese
+  - Gustav
+  - Alexander
+  - Sascha
+  - Erin
+  - Angelica
+  - Eliza
+  - Peggy
+  alienFirstNames:
+  - Glub
+  - Glob
+  - Gaboogle
+  - fauwgfcawu
+  - Xenomorph
+  - Qu
+  - AM
+  - Strorcanz
+  - Y'alogaal
+  - Zabadee
+  - Name
+  - FirstName
+  - Alien
+  - 
+  - wasd
+  - Effigy
+  - Boink
+  - "Z\xF8rlocke"
+  - Blep
+  - Blip
+  - Blippidy
+  - Zerb
+  - Gorb
+  - Gnorb
+  - Virgilius
+  - Gnarpy
+  employeeLastNames:
+  - Smith
+  - Jones
+  - Celina
+  - George
+  - Marowich
+  - Russell
+  - Johnson
+  - Peterson
+  - Blackbeard
+  - Tibone
+  - Robertson
+  - Jimson
+  - Gonzales
+  - Wesley
+  - Mcdonald
+  - Sunset
+  - Badguy
+  - Hamilton
+  - Schuyler
+  alienLastNames:
+  - Zuckerberg
+  - Za'a'loogaboog
+  - LastName
+  - Name
+  - 
+  - Zmith
+  - Kilalhumans
+  - Alaeinsrul
+  - Notanalien
+  - The Mother
+  - Zargolbargle
+  - Elias
+  - Ahab
+  - game.names:getHumanName()
+  employeeDepartment:
   - Radiation
   - Mining
-  - Alien testing
+  - Alien Testing
   - Guarding
   - Research
-  EmployeePOB:
+  - Hollow Earth
+  - Alien Aircraft Testing
+  - Accounting
+  - Research and study
+  - Agriculture
+  - Cyber Security
+  - Alien Literature Analysis
+  - Entertainment
+  - Xenogastronomy
+  - Janitorial
+  - Wash and Repair
+  alienDepartment:
+  - Human killing
+  - Minning
+  - Alien escaping
+  - Grding
+  - Resurch
+  - Being human
+  - UFO Piloting
+  - Human Disguise
+  - Food?
+  - bugs
+  - Full of Burger
+  - Middleschool teacher?
+  - Astrology
+  - Youtube
+  - Theater Club
+  - The Kitchens
+  - Geomancy
+  - Grogomancy
+  - The janitor
+  - Trailblazing
+  - Reddit Moderation
+  - Seams Stressing
+  - Watch and Destroy
+  - Hamilton
+  - Angelica
+  - Eliza
+  - Peggy
+  employeePOB:
   - "Nyk\xF8bing Falster"
   - Randers
-  - plads 3
-  - palds 5
-  - Sted
-  EmployeeDOB:
-  - 1991 March 29
-  - 2001 April 15
-  - 2008 April 3
-  - 1954 December 24
+  - New york
+  - Manchester
+  - England
+  - Mexico City
+  - Beijing
+  - Moscow
+  - Hamilton
+  - Hamburg
+  - Indianapolis
+  - Mumbai
+  - Cairo
+  - Santiago
+  - Bosingen
+  alienPOB:
+  - The Death Star
+  - Mars
+  - The Moon
+  - Urth
+  - Earth
+  - Brittle Hollow
+  - Eye of the Universe
+  - The Interloper
+  - The Quantom Moon
+  - The Sun
+  - Timber Hearth
+  - The Dark Bramble
+  - The Stranger
+  - Definitely Earth
+  - 
+  - Erid
+  employeeDOB:
+  - March 29 1991
+  - April 5 2003
+  - April 3 2008
+  - January 5 1982
+  - February 27 1973
+  - June 13 1959
+  - September 21 1981
+  - May 2 2005
+  - August 9 1959
+  - December 8 1997
+  alienDOB:
+  - December 23 1693
+  - 
+  - 14 October 2004
+  - 19 Aepril 2001
+  - August 11 2029
+  - March 42 1989
+  - July 01 1973
+  - 
   sprites:
   - {fileID: -5328571788434735620, guid: abad40f38a1a08243b9848cb550d312d, type: 3}
   - {fileID: 3980875628284427312, guid: a2528a5956dd7444b9a69757cc3fbe59, type: 3}
   - {fileID: 5534757660660944489, guid: a7c4f3f42aa7a9c439345d27a535ccb6, type: 3}
   - {fileID: 1362294402365020291, guid: 84572af1e18afdf48a61e5202722b4de, type: 3}
   - {fileID: -639831933912817743, guid: 5a9adfac534df19489b461fb618ddd45, type: 3}
-  idCardLogos:
+  employeeIdCardLogos:
   - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
+  alienIdCardLogos:
   - {fileID: 6937817954938267909, guid: c681c1e1ed37f274786c64998aa44f95, type: 3}
   - {fileID: -6470460504253458178, guid: 2e360c803d06940479f5f04a1452aa11, type: 3}
   - {fileID: -4178046375966092550, guid: 95ce6c14f82ded64d899f66b425ef694, type: 3}

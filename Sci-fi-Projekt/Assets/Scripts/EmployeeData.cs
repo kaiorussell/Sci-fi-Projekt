@@ -1,9 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EmployeeData : MonoBehaviour
 {
+    [SerializeField] private GameObject logoObject;
+
     public Sprite eSprite;
     public bool isAlien;
 
@@ -12,10 +15,11 @@ public class EmployeeData : MonoBehaviour
     public string eDepartment;
     public string ePOB;
     public string eDOB;
+    public Sprite eLogo;
 
     private bool[] difficultyChanges =
     {
-        false, false, false, false, false
+        false, false, false, false, false, false
     };
 
  
@@ -74,6 +78,7 @@ public class EmployeeData : MonoBehaviour
         eDepartment = null;
         ePOB = null;
         eDOB = null;
+        eLogo = null;
         isAlien = false;
     }
 
@@ -108,6 +113,7 @@ public class EmployeeData : MonoBehaviour
         RandomizeDepartment();
         RandomizePOB();
         RandomizeDOB();
+        RandomizeLogo();
         RandomizeSprite();
     }
     private void RandomizeFirstName()
@@ -169,6 +175,19 @@ public class EmployeeData : MonoBehaviour
         {
             eDOB = edb.employeeDOB[Random.Range(0, edb.employeeDOB.Count)];
         }
+    }
+
+    private void RandomizeLogo()
+    {
+        if (difficultyChanges[5])
+        {
+            eLogo = edb.alienIdCardLogos[Random.Range(0, edb.alienIdCardLogos.Count)];
+        }
+        else
+        {
+            eLogo = edb.employeeIdCardLogos[Random.Range(0, edb.employeeIdCardLogos.Count)];
+        }
+        logoObject.GetComponent<Image>().sprite = eLogo;
     }
 
     private void RandomizeSprite()
