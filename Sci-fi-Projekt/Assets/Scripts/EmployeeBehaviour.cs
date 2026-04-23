@@ -6,7 +6,7 @@ public class EmployeeBehaviour : MonoBehaviour
     private EmployeeData employeeData;
     [SerializeField] private Score score;
 
-    private float waitForNewEmployee = 3f;
+    [SerializeField] private float waitForNewEmployee = 1.5f;
 
     private void Awake()
     {
@@ -57,9 +57,8 @@ public class EmployeeBehaviour : MonoBehaviour
     private IEnumerator NewEmployee()
     {
         employeeData.Invoke("ResetAll", 0);
-        employeeData.Invoke("RandomizeDifficultyChanges", 0);
-        employeeData.Invoke("RandomizeAll", 0);
         yield return new WaitForSeconds(waitForNewEmployee);
+        employeeData.Invoke("RandomizeAll", 0);
         GetComponent<Animation>().Play();
     }
 

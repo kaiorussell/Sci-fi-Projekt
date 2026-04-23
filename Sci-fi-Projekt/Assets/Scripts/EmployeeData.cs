@@ -34,8 +34,6 @@ public class EmployeeData : MonoBehaviour
 
     private void Start()
     {
-
-        isAlien = Random.value < 0.5f;
         if (isAlien)
         {
             RandomizeDifficultyChanges();
@@ -76,29 +74,35 @@ public class EmployeeData : MonoBehaviour
         eDepartment = null;
         ePOB = null;
         eDOB = null;
+        isAlien = false;
     }
 
     private void RandomizeDifficultyChanges()
     {
-        for (int i = 0; i < GameManager.Instance.difficulty; i++)
+        if (isAlien)
         {
-            Debug.Log("For Loop start");
-            int rand = Random.Range(0, difficultyChanges.Count());
-            if (!difficultyChanges[rand])
+            for (int i = 0; i < GameManager.Instance.difficulty; i++)
             {
-                difficultyChanges[rand] = true;
+                Debug.Log("For Loop start");
+                int rand = Random.Range(0, difficultyChanges.Count());
+                if (!difficultyChanges[rand])
+                {
+                    difficultyChanges[rand] = true;
 
+                }
+                else
+                {
+                    i--;
+                }
+                Debug.Log("For loop end");
             }
-            else
-            {
-                i--;
-            }
-            Debug.Log("For loop end");
         }
     }
 
     private void RandomizeAll()
     {
+        isAlien = (Random.value < 0.5f);
+        RandomizeDifficultyChanges();
         RandomizeFirstName();
         RandomizeLastName();
         RandomizeDepartment();
