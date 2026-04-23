@@ -80,7 +80,9 @@ public class EmployeeDatabase : ScriptableObject
         "Blippidy",
         "Zerb",
         "Gorb",
-        "Gnorb"
+        "Gnorb",
+        "Virgilius",
+        "Gnarpy"
     };
     //---------------------------------------------------------
     public List<string> employeeLastNames = new List<string>()
@@ -114,7 +116,12 @@ public class EmployeeDatabase : ScriptableObject
         "Zmith",
         "Kilalhumans",
         "Alaeinsrul",
-        "Notanalien"
+        "Notanalien",
+        "The Mother",
+        "Zargolbargle",
+        "Elias",
+        "Ahab",
+        "game.names:getHumanName()"
     };
     //---------------------------------------------------------
     public List<string> employeeDepartment = new List<string>()
