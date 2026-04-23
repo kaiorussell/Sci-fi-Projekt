@@ -14,7 +14,7 @@ public class EmployeeDatabase : ScriptableObject
         "Seal",
         "Lahy",
         "Teto",
-        "Miku,",
+        "Miku",
         "Oscar",
         "Kaio",
         "Lucas",
@@ -53,7 +53,10 @@ public class EmployeeDatabase : ScriptableObject
         "Gustav",
         "Alexander",
         "Sascha",
-        "Erin"
+        "Erin",
+        "Angelica",
+        "Eliza",
+        "Peggy"
     };
     public List<string> alienFirstNames = new List<string>()
     {
@@ -105,6 +108,7 @@ public class EmployeeDatabase : ScriptableObject
         "Sunset",
         "Badguy",
         "Hamilton",
+        "Schuyler"
     };
     public List<string> alienLastNames = new List<string>()
     {
@@ -131,7 +135,6 @@ public class EmployeeDatabase : ScriptableObject
         "Alien Testing",
         "Guarding",
         "Research",
-        "Hollow Earth",
         "Alien Aircraft Testing",
         "Accounting",
         "Research and study",
@@ -140,7 +143,7 @@ public class EmployeeDatabase : ScriptableObject
         "Alien Literature Analysis",
         "Entertainment",
         "Xenogastronomy",
-        "Janitor",
+        "Janitorial",
         "Wash and Repair",
     };
     public List<string> alienDepartment = new List<string>()
@@ -167,7 +170,11 @@ public class EmployeeDatabase : ScriptableObject
         "Trailblazing",
         "Reddit Moderation",
         "Seams Stressing",
-        "Watch and Destroy"
+        "Watch and Destroy",
+        "Hamilton",
+        "Angelica",
+        "Eliza",
+        "Peggy"
 
     };
     //--------------------------------------------------
@@ -217,7 +224,11 @@ public class EmployeeDatabase : ScriptableObject
         "April 3 2008",
         "January 5 1982",
         "February 27 1973",
-        "June 13 1959"
+        "June 13 1959",
+        "September 21 1981",
+        "May 2 2005",
+        "August 9 1959",
+        "December 8 1997"
     };
     public List<string> alienDOB = new List<string>()
     {
@@ -225,7 +236,9 @@ public class EmployeeDatabase : ScriptableObject
         "",
         "14 October 2004",
         "19 Aepril 2001",
-        "August 11 2029"
+        "August 11 2029",
+        "March 42 1989",
+        "July 01 1973"
     };
     //-------------------------------------------------
 
