@@ -19,5 +19,5 @@ public class EmployeeManager : MonoBehaviour
 
     [SerializeField] private EmployeeDatabase edb;
 
-    public int difficulty = 3;
+//lowkey kinda useless
 }

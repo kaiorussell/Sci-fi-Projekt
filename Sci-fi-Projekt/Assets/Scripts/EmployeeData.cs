@@ -5,7 +5,7 @@ using UnityEngine;
 public class EmployeeData : MonoBehaviour
 {
     public Sprite eSprite;
-    private bool isAlien;
+    public bool isAlien;
 
     public string eFirstName;
     public string eLastName;
@@ -19,17 +19,34 @@ public class EmployeeData : MonoBehaviour
     };
 
  
-
+    private Color color;
     private SpriteRenderer sr;
     [SerializeField]private EmployeeDatabase edb;
 
+    private Vector2 spawnPoint;
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        spawnPoint.x = GetComponent<Transform>().position.x;
+        spawnPoint.y = GetComponent<Transform>().position.y;
     }
+
     private void Start()
     {
+
+        isAlien = Random.value < 0.5f;
+        if (isAlien)
+        {
+            RandomizeDifficultyChanges();
+        }
+        else
+        {
+            for (int i = 0; i < difficultyChanges.Length; i++)
+            {
+                difficultyChanges[i] = false;
+            }
+        }
         RandomizeAll();
         print($"{eFirstName} {eLastName}, {eDepartment}, {ePOB}, {eDOB}");
     }
@@ -44,23 +61,6 @@ public class EmployeeData : MonoBehaviour
                 Debug.Log(difficultyChanges[n]);
             }
         }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            for (int i = 0; i < EmployeeManager.Instance.difficulty; i++)
-            {
-                Debug.Log("For Loop start");
-                int rand = Random.Range(0, difficultyChanges.Count());
-                if (!difficultyChanges[rand])
-                {
-                    difficultyChanges[rand] = true;
-                }
-                else
-                {
-                    i--;
-                }
-                Debug.Log("For loop end");
-            }
-        }
     }
 
     private void ResetAll()
@@ -70,8 +70,32 @@ public class EmployeeData : MonoBehaviour
             difficultyChanges[i] = false;
 
         }
+        transform.position = spawnPoint;
+        eFirstName = null;
+        eLastName = null;
+        eDepartment = null;
+        ePOB = null;
+        eDOB = null;
     }
 
+    private void RandomizeDifficultyChanges()
+    {
+        for (int i = 0; i < GameManager.Instance.difficulty; i++)
+        {
+            Debug.Log("For Loop start");
+            int rand = Random.Range(0, difficultyChanges.Count());
+            if (!difficultyChanges[rand])
+            {
+                difficultyChanges[rand] = true;
+
+            }
+            else
+            {
+                i--;
+            }
+            Debug.Log("For loop end");
+        }
+    }
 
     private void RandomizeAll()
     {
@@ -139,12 +163,14 @@ public class EmployeeData : MonoBehaviour
         }
         else
         {
-            eDOB = edb.employeeDOB[Random.Range(0, edb.employeePOB.Count)];
+            eDOB = edb.employeeDOB[Random.Range(0, edb.employeeDOB.Count)];
         }
     }
 
     private void RandomizeSprite()
     {
+        color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        sr.color = color;
         eSprite = edb.sprites[Random.Range(0, edb.sprites.Count)];
         sr.sprite = eSprite;
     }

@@ -3,53 +3,63 @@ using UnityEngine;
 
 public class EmployeeBehaviour : MonoBehaviour
 {
+    private EmployeeData employeeData;
+    [SerializeField] private Score score;
 
+    private float waitForNewEmployee = 3f;
 
-
-    public bool isEvil;
-
-    private Color color;
-
+    private void Awake()
+    {
+        employeeData = GetComponent<EmployeeData>();
+    }
     void Start()
     {
-        color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-        isEvil = Random.value < 0.5f;
 
-        StartCoroutine(WalkInAnimation());
-        GetComponent<SpriteRenderer>().color = color;
+        employeeData.isAlien = Random.value < 0.5f;
+
+        StartCoroutine(NewEmployee());
     }
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Y))
         {
-            if (isEvil)
+            if (employeeData.isAlien)
             {
-                Debug.Log("You Win :D");
-                Destroy(gameObject);
+                Debug.Log("Right guess");
+                score.currentScore++;
             }
             else
             {
-                Debug.Log("You lose :C");
+                Debug.Log("Wrong guess");
+                GameManager.Instance.LoseHealth();
             }
+            StartCoroutine(NewEmployee());
         }
         if (Input.GetKeyDown(KeyCode.N))
         {
-            if (isEvil)
+            if (employeeData.isAlien)
             {
-                Debug.Log("You lose :C");
+                Debug.Log("Wrong guess");
+                GameManager.Instance.LoseHealth();
             }
             else
             {
-                Debug.Log("You won :D");
-                Destroy(gameObject);
+                Debug.Log("Right guess");
+                score.currentScore++;
             }
+            StartCoroutine(NewEmployee());
         }
     }
 
-    IEnumerator WalkInAnimation()
+
+    private IEnumerator NewEmployee()
     {
-        yield return new WaitForSeconds(2);
+        employeeData.Invoke("ResetAll", 0);
+        employeeData.Invoke("RandomizeDifficultyChanges", 0);
+        employeeData.Invoke("RandomizeAll", 0);
+        yield return new WaitForSeconds(waitForNewEmployee);
         GetComponent<Animation>().Play();
     }
 
