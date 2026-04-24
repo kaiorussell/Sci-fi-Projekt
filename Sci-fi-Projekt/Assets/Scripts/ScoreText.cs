@@ -3,14 +3,10 @@ using UnityEngine;
 
 public class ScoreText : MonoBehaviour
 {
-    private TextMeshPro textMesh;
+    [SerializeField] private TextMeshProUGUI textMesh;
     [SerializeField] private Score score;
-    private void Awake()
-    {
-        textMesh = GetComponent<TextMeshPro>();
-    }
     void Start()
     {
-        //SKAL FIKSES//textMesh.text = $"Score: {score.currentScore}";
+        textMesh.text = $"Score: {score.currentScore}\r\nYou're Fired!";
     }
 }
