@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EmployeeDatabase", menuName = "Scriptable Objects/EmployeeDatabase")]
@@ -56,7 +57,8 @@ public class EmployeeDatabase : ScriptableObject
         "Erin",
         "Angelica",
         "Eliza",
-        "Peggy"
+        "Peggy",
+        "Vic"
     };
     public List<string> alienFirstNames = new List<string>()
     {
