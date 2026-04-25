@@ -27,6 +27,7 @@ public class Timer : MonoBehaviour
         timeLeft -= Time.deltaTime;
         minutesLeft = Mathf.FloorToInt(timeLeft/60f);
         secondsLeft = Mathf.FloorToInt(timeLeft - minutesLeft * 60f);
-        textComponent.text = $"{minutesLeft}:{secondsLeft}";
+        textComponent.text = string.Format("{0:00}:{1:00}", minutesLeft, secondsLeft);
+      //  textComponent.text = $"{minutesLeft}:{secondsLeft}";
     }
 }
