@@ -228,6 +228,7 @@ MonoBehaviour:
   - {fileID: 5534757660660944489, guid: a7c4f3f42aa7a9c439345d27a535ccb6, type: 3}
   - {fileID: 1362294402365020291, guid: 84572af1e18afdf48a61e5202722b4de, type: 3}
   - {fileID: -639831933912817743, guid: 5a9adfac534df19489b461fb618ddd45, type: 3}
+  - {fileID: 3072226551768876127, guid: a567cd05ce87c9f4e8e3efd768bdcd28, type: 3}
   employeeIdCardLogos:
   - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
   alienIdCardLogos:
