@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Lose()
+    public void Lose()
     {
         Debug.Log("YOU HAVE COMPLETELY LOST");
         SceneManager.LoadScene(1);

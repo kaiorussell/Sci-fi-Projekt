@@ -25,9 +25,12 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timeLeft -= Time.deltaTime;
+        if (timeLeft <= 0)
+        {
+            GameManager.Instance.Lose();
+        }
         minutesLeft = Mathf.FloorToInt(timeLeft/60f);
         secondsLeft = Mathf.FloorToInt(timeLeft - minutesLeft * 60f);
         textComponent.text = string.Format("{0:00}:{1:00}", minutesLeft, secondsLeft);
-      //  textComponent.text = $"{minutesLeft}:{secondsLeft}";
     }
 }
