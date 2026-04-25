@@ -19,7 +19,7 @@ MonoBehaviour:
   - Seal
   - Lahy
   - Teto
-  - Miku,
+  - Miku
   - Oscar
   - Kaio
   - Lucas
@@ -62,6 +62,7 @@ MonoBehaviour:
   - Angelica
   - Eliza
   - Peggy
+  - Vic
   alienFirstNames:
   - Glub
   - Glob
@@ -121,16 +122,17 @@ MonoBehaviour:
   - Notanalien
   - The Mother
   - Zargolbargle
-  - Elias
+  - Glagorb
   - Ahab
   - game.names:getHumanName()
+  - :D
   employeeDepartment:
   - Radiation
   - Mining
-  - Alien Testing
+  - Alien Experimentation
   - Guarding
   - Research
-  - Hollow Earth
+  - Education
   - Alien Aircraft Testing
   - Accounting
   - Research and study
