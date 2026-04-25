@@ -20,37 +20,35 @@ public class EmployeeBehaviour : MonoBehaviour
         StartCoroutine(NewEmployee());
     }
 
-    void Update()
-    {
 
-        if (Input.GetKeyDown(KeyCode.Y))
+    public void onHumanButtonPress()
+    {
+        if (employeeData.isAlien)
         {
-            if (employeeData.isAlien)
-            {
-                Debug.Log("Right guess");
-                score.currentScore++;
-            }
-            else
-            {
-                Debug.Log("Wrong guess");
-                GameManager.Instance.LoseHealth();
-            }
-            StartCoroutine(NewEmployee());
+            Debug.Log("Wrong guess");
+            GameManager.Instance.LoseHealth();
         }
-        if (Input.GetKeyDown(KeyCode.N))
+        else
         {
-            if (employeeData.isAlien)
-            {
-                Debug.Log("Wrong guess");
-                GameManager.Instance.LoseHealth();
-            }
-            else
-            {
-                Debug.Log("Right guess");
-                score.currentScore++;
-            }
-            StartCoroutine(NewEmployee());
+            Debug.Log("Right guess");
+            score.currentScore++;
         }
+        StartCoroutine(NewEmployee());
+    }
+
+    public void onAlienButtonPress()
+    {
+        if (employeeData.isAlien)
+        {
+            Debug.Log("Right guess");
+            score.currentScore++;
+        }
+        else
+        {
+            Debug.Log("Wrong guess");
+            GameManager.Instance.LoseHealth();
+        }
+        StartCoroutine(NewEmployee());
     }
 
 
