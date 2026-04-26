@@ -54,6 +54,10 @@ public class EmployeeBehaviour : MonoBehaviour
 
     private IEnumerator NewEmployee()
     {
+        if (GetComponent<Animation>().isPlaying)
+        {
+            GetComponent<Animation>().Stop();
+        }
         employeeData.Invoke("ResetAll", 0);
         yield return new WaitForSeconds(waitForNewEmployee);
         employeeData.Invoke("RandomizeAll", 0);
