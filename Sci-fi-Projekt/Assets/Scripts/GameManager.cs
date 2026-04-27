@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Score score;
     [SerializeField] private int maxHealth = 3;
     public int health;
-    public int difficulty = 2;
+    private int startDifficulty = 2;
+    public int difficulty;
     private GameObject employee;
 
     private static GameManager _instance;
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         health = maxHealth;
+        difficulty = startDifficulty;
     }
 
     public void LoseHealth()

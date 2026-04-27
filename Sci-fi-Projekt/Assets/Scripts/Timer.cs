@@ -12,6 +12,8 @@ public class Timer : MonoBehaviour
     private int minutesLeft;
     private int secondsLeft;
 
+    private int minDifficulty;
+    private int maxDifficulty;
     private void Awake()
     {
         textComponent = GetComponent<TextMeshProUGUI>();
@@ -25,6 +27,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timeLeft -= Time.deltaTime;
+        GameManager.Instance.difficulty = Mathf.Clamp(Mathf.FloorToInt(timeLeft/30), 1, 5);//VIRKER IKKE
         if (timeLeft <= 0)
         {
             GameManager.Instance.Lose();

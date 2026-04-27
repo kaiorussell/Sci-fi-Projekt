@@ -5,4 +5,5 @@ public class Score : ScriptableObject
 {
     public int currentScore;
     public int highScore;
+    //highkey brug gameManager istedet
 }
