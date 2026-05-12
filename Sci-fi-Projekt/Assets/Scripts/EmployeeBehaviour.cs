@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class EmployeeBehaviour : MonoBehaviour
 {
+    [SerializeField] private GameObject employeeBullet;
+    public GameObject lastEmployeeBullet;
+
     private EmployeeData employeeData;
     [SerializeField] private Score score;
 
@@ -33,6 +36,7 @@ public class EmployeeBehaviour : MonoBehaviour
             Debug.Log("Right guess");
             score.currentScore++;
         }
+        CreateBullet();
         StartCoroutine(NewEmployee());
     }
 
@@ -62,6 +66,11 @@ public class EmployeeBehaviour : MonoBehaviour
         yield return new WaitForSeconds(waitForNewEmployee);
         employeeData.Invoke("RandomizeAll", 0);
         GetComponent<Animation>().Play();
+    }
+
+    private void CreateBullet()
+    {
+        Instantiate(employeeBullet);
     }
 
 }
