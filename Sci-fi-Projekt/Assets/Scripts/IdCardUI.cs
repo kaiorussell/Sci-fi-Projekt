@@ -6,7 +6,7 @@ public class IdCardUI : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI textObject;
 
-    private GameObject currentEmployee = GameObject.FindGameObjectWithTag("Employee");
+    private GameObject currentEmployee;
     private string currentEFirstName;
     private string currentELastName;
     private string currentEDepartment;
@@ -16,9 +16,9 @@ public class IdCardUI : MonoBehaviour
 
     [SerializeField] private GameObject card;
 
-    private void Start()
+    private void Awake()
     {
-        
+       currentEmployee = GameObject.FindGameObjectWithTag("Employee");
     }
 
     private void Update()

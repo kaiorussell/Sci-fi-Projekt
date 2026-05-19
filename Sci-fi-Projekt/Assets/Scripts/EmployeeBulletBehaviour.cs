@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EmployeeBulletBehaviour : MonoBehaviour
@@ -7,13 +9,11 @@ public class EmployeeBulletBehaviour : MonoBehaviour
     private SpriteRenderer sr;
 
     private Animation anim;
+
     private void Awake()
     {
         anim = GetComponent<Animation>();
         sr = GetComponent<SpriteRenderer>();
-    }
-    private void Start()
-    {
         eliteEmployee = GameObject.FindGameObjectWithTag("Employee");
         eliteEmployee.GetComponent<EmployeeBehaviour>().lastEmployeeBullet = this.gameObject;
         transform.position = eliteEmployee.transform.position;
@@ -21,18 +21,19 @@ public class EmployeeBulletBehaviour : MonoBehaviour
         sr.color = eliteEmployee.GetComponent<SpriteRenderer>().color;
     }
 
-    private void MakeTrue()
-    {
-
-    }
-    private void KillTheBullet()
+    public IEnumerator KillTheBullet()
     {
         anim.Play();
-        
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+        Debug.Log("Himeko core");
     }
-    private void SurviveTheBullet()
+    public IEnumerator SurviveTheBullet()
     {
         anim.Play();
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+        Debug.Log("Ya survived");
     }
     
 }

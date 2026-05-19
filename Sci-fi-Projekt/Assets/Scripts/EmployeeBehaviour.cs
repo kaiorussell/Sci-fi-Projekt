@@ -37,6 +37,7 @@ public class EmployeeBehaviour : MonoBehaviour
             score.currentScore++;
         }
         CreateBullet();
+        StartCoroutine(lastEmployeeBullet.GetComponent<EmployeeBulletBehaviour>().SurviveTheBullet());
         StartCoroutine(NewEmployee());
     }
 
@@ -52,6 +53,8 @@ public class EmployeeBehaviour : MonoBehaviour
             Debug.Log("Wrong guess");
             GameManager.Instance.LoseHealth();
         }
+        CreateBullet();
+        StartCoroutine(lastEmployeeBullet.GetComponent<EmployeeBulletBehaviour>().KillTheBullet());
         StartCoroutine(NewEmployee());
     }
 
