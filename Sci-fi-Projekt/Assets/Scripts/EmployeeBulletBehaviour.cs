@@ -27,9 +27,9 @@ public class EmployeeBulletBehaviour : MonoBehaviour
         anim.Play();
         yield return new WaitForSeconds(0.5f);
         ps.Play();
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         ps.Stop();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5);
         Destroy(gameObject);
         Debug.Log("Himeko core");
     }
