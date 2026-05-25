@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e59d5f8bc6c80514ebe5c88158c13ce9
+guid: 39242427c87852645a4601fb34e60c45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4205829231824307042
-    second: Din afsnitstekst (20)_0
+      213: -5649015160326571159
+    second: nana 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Din afsnitstekst (20)_0
+      name: nana 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 458
-        height: 90
+        x: 141
+        y: 0
+        width: 761
+        height: 1020
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9c782bd894e1a5c0800000000000000
-      internalID: -4205829231824307042
+      spriteID: 96b30f534aaaa91b0800000000000000
+      internalID: -5649015160326571159
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Din afsnitstekst (20)_0: -4205829231824307042
+      nana 1_0: -5649015160326571159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
