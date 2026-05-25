@@ -852,6 +852,7 @@ MonoBehaviour:
   employeeBullet: {fileID: 952129834}
   lastEmployeeBullet: {fileID: 0}
   score: {fileID: 11400000, guid: fa64a45b2f0da734bb37c1b551895408, type: 2}
+  theCard: {fileID: 1832064229}
   waitForNewEmployee: 0.1
 --- !u!114 &740380671
 MonoBehaviour:
@@ -6222,7 +6223,7 @@ GameObject:
   - component: {fileID: 1832064232}
   m_Layer: 5
   m_Name: Id card items
-  m_TagString: Untagged
+  m_TagString: IdCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
