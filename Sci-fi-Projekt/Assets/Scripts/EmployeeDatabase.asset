@@ -63,6 +63,12 @@ MonoBehaviour:
   - Eliza
   - Peggy
   - Vic
+  - Futaba
+  - Tabitha
+  - Pearlanne
+  - Vivian
+  - Kaneeka
+  - Joan
   alienFirstNames:
   - Glub
   - Glob
@@ -90,6 +96,10 @@ MonoBehaviour:
   - Gnorb
   - Virgilius
   - Gnarpy
+  - Persona 5
+  - Tomodachi
+  - Stray
+  - Zooble
   employeeLastNames:
   - Smith
   - Jones
@@ -110,6 +120,9 @@ MonoBehaviour:
   - Badguy
   - Hamilton
   - Schuyler
+  - Alm
+  - Stubkjerg
+  - Follager
   alienLastNames:
   - Zuckerberg
   - Za'a'loogaboog
@@ -127,6 +140,12 @@ MonoBehaviour:
   - game.names:getHumanName()
   - :D
   - Lahyhyhy
+  - Nilu
+  - Kids
+  - Kablooie
+  - The Father
+  - Snippitli
+  - Gragster
   employeeDepartment:
   - Radiation
   - Mining
@@ -188,6 +207,7 @@ MonoBehaviour:
   - Cairo
   - Santiago
   - Bosingen
+  - Istanbul
   alienPOB:
   - The Death Star
   - Mars
@@ -205,6 +225,11 @@ MonoBehaviour:
   - Definitely Earth
   - 
   - Erid
+  - Scarlet Hollow
+  - The Shire
+  - Americuh
+  - Planet B67-T
+  - Star K95R
   employeeDOB:
   - March 29 1991
   - April 5 2003
@@ -216,6 +241,7 @@ MonoBehaviour:
   - May 2 2005
   - August 9 1959
   - December 8 1997
+  - March 3 2008
   alienDOB:
   - December 23 1693
   - 
@@ -224,7 +250,13 @@ MonoBehaviour:
   - August 11 2029
   - March 42 1989
   - July 01 1973
-  - 
+  - Avgust 27 2009
+  - In 22 minutes
+  - A while ago
+  - Soon
+  - Orange
+  - December
+  - Dezember 14 1995
   sprites:
   - {fileID: -5328571788434735620, guid: abad40f38a1a08243b9848cb550d312d, type: 3}
   - {fileID: 3980875628284427312, guid: a2528a5956dd7444b9a69757cc3fbe59, type: 3}
