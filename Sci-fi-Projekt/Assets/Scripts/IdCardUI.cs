@@ -14,7 +14,7 @@ public class IdCardUI : MonoBehaviour
     private string currentEDOB;
     private Sprite currentESprite;
 
-    [SerializeField] private GameObject card;
+    [SerializeField] public GameObject card;
 
     private void Awake()
     {
