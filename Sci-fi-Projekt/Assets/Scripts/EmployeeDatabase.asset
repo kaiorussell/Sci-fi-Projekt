@@ -258,12 +258,15 @@ MonoBehaviour:
   - December
   - Dezember 14 1995
   sprites:
-  - {fileID: -5328571788434735620, guid: abad40f38a1a08243b9848cb550d312d, type: 3}
-  - {fileID: 3980875628284427312, guid: a2528a5956dd7444b9a69757cc3fbe59, type: 3}
-  - {fileID: 5534757660660944489, guid: a7c4f3f42aa7a9c439345d27a535ccb6, type: 3}
-  - {fileID: 1362294402365020291, guid: 84572af1e18afdf48a61e5202722b4de, type: 3}
-  - {fileID: -639831933912817743, guid: 5a9adfac534df19489b461fb618ddd45, type: 3}
-  - {fileID: 3072226551768876127, guid: a567cd05ce87c9f4e8e3efd768bdcd28, type: 3}
+  - {fileID: -5164444216623007920, guid: c7cb6d35a704a3a4aaeb547ffd6bfd21, type: 3}
+  - {fileID: 6849629681986441233, guid: 3456a99c6dc60854783bd8b13b0e6fd4, type: 3}
+  - {fileID: -8691870462999925474, guid: d8e636c4982279842b94dc3f7399a47f, type: 3}
+  - {fileID: -6387737581155870218, guid: 6d3edd9dd460f4d4fb6a212e90ce6d3f, type: 3}
+  - {fileID: -5649015160326571159, guid: 39242427c87852645a4601fb34e60c45, type: 3}
+  - {fileID: 1373922761494201652, guid: 02974c2f207d04544a97eab0fe9113cc, type: 3}
+  - {fileID: 9120261001377641651, guid: 978143dacaed7a44e92bc6d91ee9f4b0, type: 3}
+  - {fileID: 5238024559665593010, guid: 53dbed4f7ca30a1479417a03cf57cd4b, type: 3}
+  - {fileID: -6582961457770973001, guid: ef78d4ba08f78014b8e69e134e23cc4b, type: 3}
   employeeIdCardLogos:
   - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
   alienIdCardLogos:
