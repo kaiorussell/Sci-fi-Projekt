@@ -9,6 +9,8 @@ public class EmployeeBehaviour : MonoBehaviour
     private EmployeeData employeeData;
     [SerializeField] private Score score;
 
+    [SerializeField] private GameObject theCard;
+
     [SerializeField] private float waitForNewEmployee = 1.5f;
 
     private void Awake()
@@ -61,6 +63,7 @@ public class EmployeeBehaviour : MonoBehaviour
 
     private IEnumerator NewEmployee()
     {
+        theCard.GetComponent<IdCardUI>().card.SetActive(false);
         if (GetComponent<Animation>().isPlaying)
         {
             GetComponent<Animation>().Stop();
