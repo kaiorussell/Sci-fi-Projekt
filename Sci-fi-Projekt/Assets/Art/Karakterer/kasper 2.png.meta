@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3456a99c6dc60854783bd8b13b0e6fd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6849629681986441233
+    second: kasper 2_0
+  - first:
+      213: 8536826001620250313
+    second: kasper 2_1
+  - first:
+      213: -4898554004523250505
+    second: kasper 2_2
+  - first:
+      213: 1352191037246163115
+    second: kasper 2_3
+  - first:
+      213: -5033689469473630337
+    second: kasper 2_4
+  - first:
+      213: -1500512442527897701
+    second: kasper 2_5
+  - first:
+      213: 8368508095272959324
+    second: kasper 2_6
+  - first:
+      213: -206700402957570201
+    second: kasper 2_7
+  - first:
+      213: -7671106959022883759
+    second: kasper 2_8
+  - first:
+      213: -9139999455027842567
+    second: kasper 2_9
+  - first:
+      213: -4332689867002305541
+    second: kasper 2_10
+  - first:
+      213: -3186774779168040633
+    second: kasper 2_11
+  - first:
+      213: 7324847582981960009
+    second: kasper 2_12
+  - first:
+      213: 1869126519594363574
+    second: kasper 2_13
+  - first:
+      213: 8037424870258468253
+    second: kasper 2_14
+  - first:
+      213: -7386329949912446687
+    second: kasper 2_15
+  - first:
+      213: 4966519475975014067
+    second: kasper 2_16
+  - first:
+      213: 5700688646536386136
+    second: kasper 2_17
+  - first:
+      213: -47585902837497186
+    second: kasper 2_18
+  - first:
+      213: 5249701175974464015
+    second: kasper 2_19
+  - first:
+      213: 5424075117954599284
+    second: kasper 2_20
+  - first:
+      213: 2019973100772562081
+    second: kasper 2_21
+  - first:
+      213: 3429343611340801277
+    second: kasper 2_22
+  - first:
+      213: 7540363660641634039
+    second: kasper 2_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kasper 2_0
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1933
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11016c5a7e5ce0f50800000000000000
+      internalID: 6849629681986441233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1654
+        width: 332
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cea4e7b406e87670800000000000000
+      internalID: 8536826001620250313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1878
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc03572617d40cb0800000000000000
+      internalID: -4898554004523250505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1563
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8468b8592f3c210800000000000000
+      internalID: 1352191037246163115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1598
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77566ed81eb42ab0800000000000000
+      internalID: -5033689469473630337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1599
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97221232eb1d2be0800000000000000
+      internalID: -1500512442527897701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1513
+        width: 304
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5db9be36c9e22470800000000000000
+      internalID: 8368508095272959324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1525
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fa8c22417a12df0800000000000000
+      internalID: -206700402957570201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1516
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cf9613dd0ca8590800000000000000
+      internalID: -7671106959022883759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1535
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f13dc3ebe2382180800000000000000
+      internalID: -9139999455027842567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_10
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1483
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3a46385813fd3c0800000000000000
+      internalID: -4332689867002305541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1488
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749d38cf83d46c3d0800000000000000
+      internalID: -3186774779168040633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1466
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941b489611617a560800000000000000
+      internalID: 7324847582981960009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1291
+        width: 90
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba2fa0aaa870f910800000000000000
+      internalID: 1869126519594363574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1454
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9565acd55baa8f60800000000000000
+      internalID: 8037424870258468253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1441
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129c3a58b0c7e7990800000000000000
+      internalID: -7386329949912446687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1403
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6cc8f462f9ce440800000000000000
+      internalID: 4966519475975014067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_17
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1442
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85657e7de1aec1f40800000000000000
+      internalID: 5700688646536386136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1371
+        width: 140
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e920e0d9fd0f65ff0800000000000000
+      internalID: -47585902837497186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_19
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1336
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a88eac76faad840800000000000000
+      internalID: 5249701175974464015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 959
+        height: 1294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47908b0f49f264b40800000000000000
+      internalID: 5424075117954599284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_21
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1254
+        width: 144
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4946735d2680c10800000000000000
+      internalID: 2019973100772562081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_22
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1064
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df449b658d9779f20800000000000000
+      internalID: 3429343611340801277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kasper 2_23
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1053
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f60fcd7cc0c4a860800000000000000
+      internalID: 7540363660641634039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kasper 2_0: 6849629681986441233
+      kasper 2_1: 8536826001620250313
+      kasper 2_10: -4332689867002305541
+      kasper 2_11: -3186774779168040633
+      kasper 2_12: 7324847582981960009
+      kasper 2_13: 1869126519594363574
+      kasper 2_14: 8037424870258468253
+      kasper 2_15: -7386329949912446687
+      kasper 2_16: 4966519475975014067
+      kasper 2_17: 5700688646536386136
+      kasper 2_18: -47585902837497186
+      kasper 2_19: 5249701175974464015
+      kasper 2_2: -4898554004523250505
+      kasper 2_20: 5424075117954599284
+      kasper 2_21: 2019973100772562081
+      kasper 2_22: 3429343611340801277
+      kasper 2_23: 7540363660641634039
+      kasper 2_3: 1352191037246163115
+      kasper 2_4: -5033689469473630337
+      kasper 2_5: -1500512442527897701
+      kasper 2_6: 8368508095272959324
+      kasper 2_7: -206700402957570201
+      kasper 2_8: -7671106959022883759
+      kasper 2_9: -9139999455027842567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
