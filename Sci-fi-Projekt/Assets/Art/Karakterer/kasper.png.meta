@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: c7cb6d35a704a3a4aaeb547ffd6bfd21
+guid: 1b65cd069f956d347831baed726a0b77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5164444216623007920
-    second: kasper 1_0
+      213: -3357808618011034650
+    second: kasper_0
   - first:
-      213: -1349383823028135010
-    second: kasper 1_1
+      213: -5950996422810096202
+    second: kasper_1
   - first:
-      213: -150523072043924212
-    second: kasper 1_2
+      213: -8838074853306698675
+    second: kasper_2
   - first:
-      213: -1201640062105173949
-    second: kasper 1_3
+      213: 2552449561471426920
+    second: kasper_3
   - first:
-      213: 397941452840153324
-    second: kasper 1_4
+      213: 5706404182143624049
+    second: kasper_4
   - first:
-      213: 2048732805487916
-    second: kasper 1_5
+      213: -3387124050886572707
+    second: kasper_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,11 +111,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kasper 1_0
+      name: kasper_0
       rect:
         serializedVersion: 2
         x: 830
@@ -130,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0577ddde8553458b0800000000000000
-      internalID: -5164444216623007920
+      spriteID: 6ebf4b33adaa661d0800000000000000
+      internalID: -3357808618011034650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kasper 1_1
+      name: kasper_1
       rect:
         serializedVersion: 2
         x: 377
@@ -152,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9bdfb2ff86064de0800000000000000
-      internalID: -1349383823028135010
+      spriteID: 6bda8ce7840d96da0800000000000000
+      internalID: -5950996422810096202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kasper 1_2
+      name: kasper_2
       rect:
         serializedVersion: 2
         x: 876
@@ -174,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c054250401c39edf0800000000000000
-      internalID: -150523072043924212
+      spriteID: d44775e3fb9d85580800000000000000
+      internalID: -8838074853306698675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kasper 1_3
+      name: kasper_3
       rect:
         serializedVersion: 2
         x: 54
@@ -196,14 +209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 340c756eabae25fe0800000000000000
-      internalID: -1201640062105173949
+      spriteID: 8612b9a4a5f1c6320800000000000000
+      internalID: 2552449561471426920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kasper 1_4
+      name: kasper_4
       rect:
         serializedVersion: 2
         x: 996
@@ -218,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce0b0f994a5c58500800000000000000
-      internalID: 397941452840153324
+      spriteID: 173697dae58313f40800000000000000
+      internalID: 5706404182143624049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kasper 1_5
+      name: kasper_5
       rect:
         serializedVersion: 2
         x: 995
@@ -240,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2d5c17cf47470000800000000000000
-      internalID: 2048732805487916
+      spriteID: d5549b81f948ef0d0800000000000000
+      internalID: -3387124050886572707
       vertices: []
       indices: 
       edges: []
@@ -260,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kasper 1_0: -5164444216623007920
-      kasper 1_1: -1349383823028135010
-      kasper 1_2: -150523072043924212
-      kasper 1_3: -1201640062105173949
-      kasper 1_4: 397941452840153324
-      kasper 1_5: 2048732805487916
+      kasper_0: -3357808618011034650
+      kasper_1: -5950996422810096202
+      kasper_2: -8838074853306698675
+      kasper_3: 2552449561471426920
+      kasper_4: 5706404182143624049
+      kasper_5: -3387124050886572707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

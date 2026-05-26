@@ -258,15 +258,12 @@ MonoBehaviour:
   - December
   - Dezember 14 1995
   sprites:
-  - {fileID: -5164444216623007920, guid: c7cb6d35a704a3a4aaeb547ffd6bfd21, type: 3}
-  - {fileID: 6849629681986441233, guid: 3456a99c6dc60854783bd8b13b0e6fd4, type: 3}
   - {fileID: -8691870462999925474, guid: d8e636c4982279842b94dc3f7399a47f, type: 3}
   - {fileID: -6387737581155870218, guid: 6d3edd9dd460f4d4fb6a212e90ce6d3f, type: 3}
   - {fileID: -5649015160326571159, guid: 39242427c87852645a4601fb34e60c45, type: 3}
   - {fileID: 1373922761494201652, guid: 02974c2f207d04544a97eab0fe9113cc, type: 3}
   - {fileID: 9120261001377641651, guid: 978143dacaed7a44e92bc6d91ee9f4b0, type: 3}
   - {fileID: 5238024559665593010, guid: 53dbed4f7ca30a1479417a03cf57cd4b, type: 3}
-  - {fileID: -6582961457770973001, guid: ef78d4ba08f78014b8e69e134e23cc4b, type: 3}
   employeeIdCardLogos:
   - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
   alienIdCardLogos:
