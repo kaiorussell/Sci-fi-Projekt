@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private Score score;
-    [SerializeField] private int maxHealth = 3;
+    [SerializeField] public int maxHealth = 3;
     public int health;
     private int startDifficulty = 2;
     public int difficulty;

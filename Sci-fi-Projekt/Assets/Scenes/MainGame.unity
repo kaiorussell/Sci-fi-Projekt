@@ -399,7 +399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 386, y: 171}
+  m_AnchoredPosition: {x: 372, y: 171}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331281639
@@ -437,8 +437,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c0ae2d8db593f84e81043a091899e82, type: 2}
+  m_sharedMaterial: {fileID: -1227638121264469436, guid: 5c0ae2d8db593f84e81043a091899e82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -924,7 +924,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5598033121055905788, guid: c78fadfdeb86d8f439b0b2f2f42d48d8, type: 3}
+  m_Sprite: {fileID: -6582961457770973001, guid: ef78d4ba08f78014b8e69e134e23cc4b, type: 3}
   m_Color: {r: 0, g: 1, b: 0.9765811, a: 1}
   m_FlipX: 0
   m_FlipY: 0
