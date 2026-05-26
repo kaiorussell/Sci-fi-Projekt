@@ -17,7 +17,7 @@ public class TutorialVideoHandler : MonoBehaviour
     private IEnumerator Skibidi()
     {
         yield return new WaitForSeconds(8);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
 

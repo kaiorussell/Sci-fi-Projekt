@@ -5,6 +5,6 @@ public class BackToHomeButton : MonoBehaviour
 {
    public void GoToHome()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }
