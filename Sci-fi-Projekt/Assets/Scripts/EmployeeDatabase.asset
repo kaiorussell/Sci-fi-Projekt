@@ -69,6 +69,8 @@ MonoBehaviour:
   - Vivian
   - Kaneeka
   - Joan
+  - Neil
+  - Rocky
   alienFirstNames:
   - Glub
   - Glob
@@ -100,6 +102,8 @@ MonoBehaviour:
   - Tomodachi
   - Stray
   - Zooble
+  - Discord
+  - Guppy
   employeeLastNames:
   - Smith
   - Jones
@@ -123,6 +127,10 @@ MonoBehaviour:
   - Alm
   - Stubkjerg
   - Follager
+  - Sakamoto
+  - Takamaki
+  - Natsuki
+  - Hoshino
   alienLastNames:
   - Zuckerberg
   - Za'a'loogaboog
@@ -146,6 +154,12 @@ MonoBehaviour:
   - The Father
   - Snippitli
   - Gragster
+  - Heng
+  - Sock
+  - Glass
+  - Latex
+  - Lidl
+  - kVICkly
   employeeDepartment:
   - Radiation
   - Mining
@@ -230,6 +244,9 @@ MonoBehaviour:
   - Americuh
   - Planet B67-T
   - Star K95R
+  - Amphoreus
+  - Jarilo-VI
+  - Hethereau
   employeeDOB:
   - March 29 1991
   - April 5 2003
@@ -242,6 +259,8 @@ MonoBehaviour:
   - August 9 1959
   - December 8 1997
   - March 3 2008
+  - December 10 2008
+  - August 27 2009
   alienDOB:
   - December 23 1693
   - 
@@ -257,13 +276,18 @@ MonoBehaviour:
   - Orange
   - December
   - Dezember 14 1995
+  - 33550336
   sprites:
-  - {fileID: -8691870462999925474, guid: d8e636c4982279842b94dc3f7399a47f, type: 3}
+  - {fileID: 5820976246749315985, guid: 3ddbd9b906377374aa6daec492cce2a1, type: 3}
+  - {fileID: 550949320491790061, guid: ea5d50df3f173c446b2b126b51d62dbb, type: 3}
+  - {fileID: 1996360750017981302, guid: a6901716777f19749a302cd1b00a1f54, type: 3}
+  - {fileID: 5294073193287399261, guid: c3257e268ae72124fb4c76b2c97ff0bb, type: 3}
   - {fileID: -6387737581155870218, guid: 6d3edd9dd460f4d4fb6a212e90ce6d3f, type: 3}
   - {fileID: -5649015160326571159, guid: 39242427c87852645a4601fb34e60c45, type: 3}
   - {fileID: 1373922761494201652, guid: 02974c2f207d04544a97eab0fe9113cc, type: 3}
   - {fileID: 9120261001377641651, guid: 978143dacaed7a44e92bc6d91ee9f4b0, type: 3}
   - {fileID: 5238024559665593010, guid: 53dbed4f7ca30a1479417a03cf57cd4b, type: 3}
+  - {fileID: -5598033121055905788, guid: c78fadfdeb86d8f439b0b2f2f42d48d8, type: 3}
   employeeIdCardLogos:
   - {fileID: -855298285791758126, guid: 7da14aa349e49bb438747f9f221ee2f3, type: 3}
   alienIdCardLogos:

@@ -924,15 +924,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5164444216623007920, guid: c7cb6d35a704a3a4aaeb547ffd6bfd21, type: 3}
+  m_Sprite: {fileID: -5598033121055905788, guid: c78fadfdeb86d8f439b0b2f2f42d48d8, type: 3}
   m_Color: {r: 0, g: 1, b: 0.9765811, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 3.57, y: 5.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &740380673
@@ -1050,7 +1050,7 @@ Transform:
   m_GameObject: {fileID: 952129834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.607027, y: -0.3308357, z: 0}
+  m_LocalPosition: {x: -2.607027, y: -0.4, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1289,7 +1289,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5.76
+      scalar: 24.56
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1407,7 +1407,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1785,7 +1785,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 60.73
+    angle: 58.2
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -2611,11 +2611,11 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 36.35
       minScalar: 0
       maxCurve:
         serializedVersion: 2

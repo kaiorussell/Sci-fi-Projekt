@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class TutorialVideoHandler : MonoBehaviour
@@ -8,10 +10,15 @@ public class TutorialVideoHandler : MonoBehaviour
     private void Awake()
     {
         player = GetComponent<VideoPlayer>();
+        player.Play();
+        StartCoroutine("Skibidi");
     }
 
-    private void Start()
+    private IEnumerator Skibidi()
     {
-
+        yield return new WaitForSeconds(8);
+        SceneManager.LoadScene(1);
     }
+
+
 }
